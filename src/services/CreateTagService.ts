@@ -20,7 +20,7 @@ class CreateTagService {
       name
     });
     await tagsRepositories.save(tag);
-    return tagAlreadyExists;
+    return tag;
   }
 }
 export{CreateTagService}
